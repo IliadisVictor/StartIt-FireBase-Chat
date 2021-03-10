@@ -43,7 +43,7 @@ function App() {
 
     return unsubscribe;
     
-  }, []);  
+  }, );  
 
   
 
@@ -96,7 +96,7 @@ function App() {
             <h1 className="impact"  >
               StartIt <span>Chat</span> is a chat box created with React and Firebase
             </h1>
-            <Button className="button" onClick={signInWithGoogle}> <img src="/images/googleicon.png"></img> </Button>
+            <Button className="button" onClick={signInWithGoogle}> <img src="/images/googleicon.png" alt="alt"></img> </Button>
           </div>
           <Lottie animationData={groovyWalkAnimation} />;
       
