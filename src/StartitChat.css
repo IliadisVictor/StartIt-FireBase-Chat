@@ -1,0 +1,171 @@
+* {
+    box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+   
+    
+}
+.wrapper {
+    height: 90vh;
+    position: relative;
+
+    
+}
+.container {
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    height: 100%;
+    background-color: #F1F1F1;
+}
+.container2 {
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    height: 100%;
+    background-color: #F1F1F1;
+}
+
+
+
+
+
+
+
+.impact {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    width: 400px;
+    line-height: 1.2;
+    /* width: 50%; */
+    text-align: center;
+    margin-left: 0px;
+    background-color: none;
+
+}
+
+.impact span {
+    color: #5DE2CC;
+
+}
+
+.animation {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+.button {
+  margin-top: 20px;
+  border: none;
+  
+}
+button:focus {outline:0;}
+
+
+.chat {
+    margin-top: 20px;
+    height: 650px;
+    overflow: auto; 
+    width: 100%;
+    scrollbar-width: thin;}
+
+
+.type {
+    margin-top: 5px;
+    width: 1000px; 
+    height: 45px;  
+    font-size: 15px;
+    border-radius: 8px;
+    padding-left: 5px;
+    outline: none;
+    border-style: hidden;
+    
+ }
+
+ .userimg {
+     margin-bottom: -25px;
+    border-radius: 9999px;
+
+
+
+ }
+
+
+.message {
+    /* background-color: red; */
+    margin-bottom: 40px;
+}
+
+.username {
+    /* font-weight: bold; */
+    margin-left: 15px;
+    color: #5DE2CC;
+    font-size: 24px;
+    display: inline;
+    /* padding-bottom: 20px; */
+}
+
+.usertext {
+    margin-left: 65px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.time {
+    margin-left: 17px;
+    margin-bottom: 30px;
+    color: grey;
+}
+
+
+
+ input:focus {
+     outline: none; }
+
+
+.submit {
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    left: 150px;
+    margin-left:-50px;
+    
+
+}
+
+
+.button2 {
+    margin-top: 20px;
+    border-radius: 20px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   padding-left: 8px;
+   padding-right: 8px;
+   border-width:3px;
+   text-align: center;
+   font-size:15px;
+   font-weight:900;
+   letter-spacing:1px;
+   color:#5DE2CC;;
+   width: 130px;
+   border: 2px solid #5DE2CC;;
+
+}
+.button2:hover {
+    background-color:#5DE2CC;
+    color:white;
+    border:none;
+}
