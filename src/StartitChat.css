@@ -76,7 +76,7 @@ button:focus {outline:0;}
 
 .chat {
     margin-top: 20px;
-    height: 650px;
+    height: 65vh;
     overflow: auto; 
     width: 100%;
     scrollbar-width: thin;}
